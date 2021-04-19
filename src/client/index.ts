@@ -8,6 +8,7 @@ class Game {
   public geometry: THREE.BoxGeometry;
   public material: THREE.MeshBasicMaterial;
   public cube: THREE.Mesh;
+
   public controls: OrbitControls;
 
   init() {
